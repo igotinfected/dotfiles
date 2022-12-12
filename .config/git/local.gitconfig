@@ -1,3 +1,7 @@
+# ℹ️ to adapt on different machines
+# not to be committed if sensitive information is added
+# if you want git to ignore changes to this file, use the following command:
+#   git update-index --no-assume-unchanged local.gitconfig
 [commit]
 	gpgsign = true
 
