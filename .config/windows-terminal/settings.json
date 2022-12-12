@@ -1,0 +1,100 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "launchMode": "maximized",
+    "profiles": {
+        "defaults": {
+            "experimental.retroTerminalEffect": false,
+            "font": {
+                "face": "FiraCode Nerd Font Mono"
+            }
+        },
+        "list": [
+            {
+                "colorScheme": "Monokai Pro (Filter Ristretto)",
+                "elevate": true,
+                "experimental.retroTerminalEffect": false,
+                "font": {
+                    "face": "FiraCode Nerd Font",
+                    "size": 14,
+                    "weight": "normal"
+                },
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "intenseTextStyle": "all",
+                "name": "Ubuntu",
+                "opacity": 100,
+                "source": "Windows.Terminal.Wsl",
+                "useAcrylic": false
+            },
+            {
+                "colorScheme": "Monokai Pro (Filter Ristretto)",
+                "elevate": true,
+                "font": {
+                    "face": "FiraCode Nerd Font",
+                    "size": 14,
+                    "weight": "normal"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "background": "#2C2525",
+            "black": "#403838",
+            "blue": "#F38D70",
+            "brightBlack": "#72696A",
+            "brightBlue": "#F38D70",
+            "brightCyan": "#85DACC",
+            "brightGreen": "#ADDA78",
+            "brightPurple": "#A8A9EB",
+            "brightRed": "#FD6883",
+            "brightWhite": "#FFF1F3",
+            "brightYellow": "#F9CC6C",
+            "cursorColor": "#FFF1F3",
+            "cyan": "#85DACC",
+            "foreground": "#FFF1F3",
+            "green": "#ADDA78",
+            "name": "Monokai Pro (Filter Ristretto)",
+            "purple": "#A8A9EB",
+            "red": "#FD6883",
+            "selectionBackground": "#C3B7B8",
+            "white": "#FFF1F3",
+            "yellow": "#F9CC6C"
+        }
+    ],
+    "startOnUserLogin": true,
+    "theme": "system",
+    "trimBlockSelection": true
+}

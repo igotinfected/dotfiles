@@ -1,0 +1,14 @@
+[alias]
+        lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr %an)%Creset' --abbrev-commit --date=relative
+        co = checkout
+        amend = commit -a --amend
+        st = status -sb
+
+[core]
+	excludesfile = .config/git/global.gitignore
+
+[fetch]
+	prune = true
+
+[include]
+	path = .config/git/local.gitconfig

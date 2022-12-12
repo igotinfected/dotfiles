@@ -1,0 +1,26 @@
+[commit]
+	gpgsign = true
+
+[config]
+	user = igotinfected
+	email = igotinfected@gmail.com
+
+[core]
+	editor = vim
+
+[credential]
+	credentialStore = gpg
+	helper = manager
+
+[credential "https://dev.azure.com"]
+        allowWindowsAuth = false
+        provider = azure-repos
+        useHttpPath = true
+
+[user]
+	email = igotinfected@gmail.com
+	name = Jason Rebelo Neves
+	signingKey = DB4A4C484317DAA0
+
+[tag]
+	gpgsign = true
