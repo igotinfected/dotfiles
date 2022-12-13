@@ -1,7 +1,7 @@
 # ℹ️ to adapt on different machines
 # not to be committed if sensitive information is added
 # if you want git to ignore changes to this file, use the following command:
-#   git update-index --no-assume-unchanged local.gitconfig
+#   git update-index --assume-unchanged local.gitconfig
 [commit]
 	gpgsign = true
 
@@ -24,7 +24,7 @@
 [user]
 	email = igotinfected@gmail.com
 	name = Jason Rebelo Neves
-	signingKey = DB4A4C484317DAA0
+	signingKey = F3D5443240AD3339 
 
 [tag]
 	gpgsign = true
