@@ -1,3 +1,7 @@
+# better defaults
+command_timeout = 10000
+scan_timeout = 100
+
 [aws]
 symbol = "  "
 

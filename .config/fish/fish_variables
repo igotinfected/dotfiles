@@ -11,6 +11,10 @@ SETUVAR _fish_abbr_extl:exa\x20\x2daBGFhl\x20\x2d\x2dtree\x20\x2d\x2dicons
 SETUVAR _fish_abbr_g:git
 SETUVAR _fish_abbr_gd:git\x20diff
 SETUVAR _fish_abbr_q:quit
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:\x7e/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_list\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejorgebucaran/nvm\x2efish
+SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_abbreviations_set:true
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
@@ -41,4 +45,7 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_user_paths:/home/dev/\x2edotnet/tools
+SETUVAR fish_user_paths:/home/dev/\x2elocal/bin\x1e/home/dev/\x2edotnet/tools
+SETUVAR nvm_data:/home/dev/\x2elocal/share/nvm
+SETUVAR nvm_default_version:latest
+SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist
