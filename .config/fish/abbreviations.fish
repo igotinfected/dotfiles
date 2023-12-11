@@ -13,3 +13,7 @@ abbr --add g 'git'
 abbr --add gd 'git diff'
 
 abbr --add q 'quit'
+
+abbr --add v 'nvim'
+abbr --add vi 'nvim'
+abbr --add vim 'nvim'
